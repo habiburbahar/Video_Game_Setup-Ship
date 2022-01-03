@@ -1,17 +1,17 @@
 package com.example.video_game_setupship;
 
 import java.util.ArrayList;
+import java.util.List;
 
-public class ShipModel {
-    ArrayList<ShipModelSubscriber> subscribers;
-    public ArrayList<Groupable> groups;
+public class InteractionModel {
+    List<ShipModelSubscriber> subscribers;
 
-
-    public ShipModel() {
+    public InteractionModel() {
         subscribers = new ArrayList<>();
+
     }
 
-    public void addSubscriber (ShipModelSubscriber aSub) {
+    public void addSubscriber(ShipModelSubscriber aSub) {
         subscribers.add(aSub);
     }
 
@@ -22,4 +22,3 @@ public class ShipModel {
 
 
 }
-
