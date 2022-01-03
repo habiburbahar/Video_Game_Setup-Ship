@@ -14,9 +14,7 @@ public class ShipView  extends StackPane implements ShipModelSubscriber{
     Slider rotateSlider;
     ShipModel model;
     InteractionModel iModel;
-
-
-
+    //Ship View
     public ShipView(){
         myCanvas = new Canvas(1000,700);
         gc = myCanvas.getGraphicsContext2D();
